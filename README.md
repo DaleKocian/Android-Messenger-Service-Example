@@ -6,7 +6,7 @@ Example of an activity communicating to a service through Messenger.
 If you need your service to communicate with remote processes, then you can use a Messenger to provide the interface
 for your service. 
 
-Here's a summary of how to use a Messenger:\n
+Here's a summary of how to use a Messenger:                                                                               
   1) The service implements a Handler that receives a callback for each call from a client.
   2) The Handler is used to create a Messenger object (which is a reference to the Handler).
   3) The Messenger creates an IBinder that the service returns to clients from onBind().
